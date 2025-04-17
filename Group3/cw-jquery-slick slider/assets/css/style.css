@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: estedad;
+}
+body {
+  background-color: #efefef;
+}
+.header-slider {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.slick-next {
+  right: 9px !important;
+}
+.slick-prev {
+  left: 25px !important;
+  z-index: 999 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px !important;
+}
+
